@@ -1,5 +1,5 @@
-# import sublime, sublime_plugin
-# import re
+import sublime, sublime_plugin
+import re
 
 # Can be run using `view.run_command('hello_world')`
 class HelloWorldCommand(sublime_plugin.EventListener):
